@@ -51,7 +51,7 @@ public class HelloTraceV2 {
         } else {
             log.info("[{}] {}{} time={}ms ex={}",
                     traceId.getId(),
-                    addSpace(COMPlETE_PREFIX, traceId.getLevel()),
+                    addSpace(EX_PREFIX, traceId.getLevel()),
                     status.getMessage(),
                     resultTimeMs,
                     e.toString());
